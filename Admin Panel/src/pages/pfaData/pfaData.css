@@ -1,0 +1,84 @@
+
+.container1{
+    
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    flex: 2;
+    align-items: center;
+    
+    
+
+}
+.featureditem1{
+    flex: 1;
+    align-items: center;
+    margin: 0px 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -9px pink;
+    background-color: green;
+    height: 120px;
+    text-align: center;
+    /* justify-content: center; */
+}
+.featureditem2{
+    flex: 1;
+    margin: 0px 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -9px pink;
+    background-color: rgb(222, 68, 68);
+    height: 120px;
+    text-align: center;
+}
+.featureditem3{
+    flex: 1;
+    margin: 0px 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -9px pink;
+    background-color: orange;
+    height: 120px;
+    text-align: center;
+   
+
+}
+
+
+
+.charts1{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px -9px #000000;
+
+}
+.chartTitle1{
+    margin-bottom: 20px;
+}
+.container1{
+    width: 100%;
+}
+.container2{
+    
+    width:100%;
+    
+}
+
+.featuredTitle1{
+    font-size: 18px;
+    align-items: center;
+ padding-top: 35px;
+}
+.featuredMoney{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+

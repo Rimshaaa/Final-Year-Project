@@ -1,0 +1,9 @@
+//export const BASE_URL = "http://172.21.240.209:3333/api/v1/";
+//export const SOCKET_URL = "http://172.21.240.209:3333/";
+ export const BASE_URL = "http://192.168.1.8:3333/api/v1/";
+ export const SOCKET_URL = "http://192.168.1.8:3333/";
+export const UPLOAD_PRESET = "fyp-project";
+export const CLOUD_NAME = "fypproject07";
+export const DEFAULT_SUPPLIER_IMAGE = "https://res.cloudinary.com/dbdxsvxda/image/upload/v1699635319/niegbour_proj/zifojlp0bepypxau1lr9.png";
+export const DEFAULT_RESTAURANT_IMAGE = "https://res.cloudinary.com/dbdxsvxda/image/upload/v1699635399/niegbour_proj/zrwjyv7b5sfisjo3vqaw.png";
+export const ORDER_PLACEHOLDER_IMAGE = "https://res.cloudinary.com/dbdxsvxda/image/upload/v1700256031/niegbour_proj/f1t039y4v0f5u69p3r4t.jpg";

@@ -1,0 +1,53 @@
+.Widgetsmall{
+    flex: 1;
+    box-shadow: 5px 5px 10px -9px #000000;
+    padding: 20px;
+    margin-right: 20px;
+}
+.WidgetsmallTitle{
+    font-weight: 600;
+    font-size: 22px;
+}
+.Widgetsmallimage{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    font:40px;
+    object-fit: cover;
+}
+.WidgetsmallList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.WidgetsmallListitem{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px 0px;
+}
+.WidgetsmallUser{
+    display: flex;
+    flex-direction: column;
+}
+.WidgetsmallUsername{
+    font-weight: 600;
+}
+.WidgetsmallUserTitle{
+    font-weight: 300;
+
+}
+.WidgetsmalButton{
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: darkgray;
+    background-color: #eeeef7;
+    cursor: pointer;
+}
+.Widgetsmallicon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}
