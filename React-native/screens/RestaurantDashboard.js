@@ -225,7 +225,7 @@ export default function RestaurantDashboard() {
                     color: Colors.black,
                   }}
                 >
-                 Place bid
+                 Find Supplier
                 </Text>
               </View>
             </View>
