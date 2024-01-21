@@ -1,11 +1,8 @@
-import axios from "axios";
+/*import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-
 export const baseUrl = `http://192.168.43.147:3333/api/v1/`;
 export const socketUrl = "http://192.168.43.147:3333/";
 
-// export const baseUrl = `http://192.168.10.6:3333/api/v1/`;
-// export const socketUrl = "http://192.168.10.6:3333/";
 
 let token;
 const getData = async () => {
@@ -46,9 +43,6 @@ const headers = {
   Accept: "application/json",
   "Content-Type": "application/json",
 };
-// const headersWithToken = { Accept: "application/json", "Content-Type": "application/json",
-// authorization: token && `Bearer ${token}`
-// };
 
 const getHeadersWithToken = async () => {
   try {
@@ -96,8 +90,6 @@ async function apiRequest(method, url, data = null, headers = {}) {
       data: data,
       headers: headers,
     });
-
-    // Process the received data
     return response;
   } catch (error) {
     console.error("error axios", error);
@@ -195,85 +187,7 @@ export const trackLogin = async (data) => {
   return result;
 };
 
-// lost and found apis
-
-export const lostItemGetbyLoc = async (data) => {
-  let { type, category } = data;
-  const headersWithToken = await getHeadersWithToken();
-  let result = await apiRequest(
-    "GET",
-    `lostandfound_byloc?type=${type}&category=${category}`,
-    null,
-    headersWithToken
-  );
-  return result;
-};
-export const lostItemGetbyCat = async (data) => {
-  let { type, category } = data;
-  const headersWithToken = await getHeadersWithToken();
-  let result = await apiRequest(
-    "GET",
-    `lostandfound_byloc?type=${type}&category=${category}`,
-    null,
-    headersWithToken
-  );
-  return result;
-};
-export const lostItemGet = async (data) => {
-  let queryString = data && new URLSearchParams(data).toString();
-  const headersWithToken = await getHeadersWithToken();
-  let result = await apiRequest(
-    "GET",
-    `lostandfound?${queryString}`,
-    null,
-    headersWithToken
-  );
-  return result;
-};
-export const lostandfoundCategGet = async () => {
-  const headersWithToken = await getHeadersWithToken();
-  let result = await apiRequest(
-    "GET",
-    `lostfoundCateg`,
-    null,
-    headersWithToken
-  );
-  return result;
-};
-export const lostandfoundCreate = async (data) => {
-  const headersWithToken = await getHeadersWithTokenFormData();
-  let result = await apiRequest(
-    "POST",
-    `lostandfound_create`,
-    data,
-    headersWithToken
-  );
-  return result;
-};
-export const updateLAndFImages = async (data) => {
-  const headersWithToken = await getHeadersWithTokenFormData();
-  let result = await apiRequest(
-    "PUT",
-    `update_landf_images/${data.id}`,
-    data.formData,
-    headersWithToken
-  );
-  return result;
-};
-export const lostandfoundUpdate = async (data) => {
-  let { _id } = data;
-  const headersWithToken = await getHeadersWithToken();
-  let result = await apiRequest(
-    "PUT",
-    `lostandfound_update/${_id}`,
-    data,
-    headersWithToken
-  );
-  return result;
-};
-
-// connection api
-
+//Connection
 export const connectionRequests = async () => {
   const id = await getId();
   const headersWithToken = await getHeadersWithToken();
@@ -337,17 +251,7 @@ export const Disconnect = async (data) => {
   return result;
 };
 
-export const NeighbourMayKnow = async (data) => {
-  const id = await getId();
-  const headersWithToken = await getHeadersWithToken();
-  let result = await apiRequest(
-    "GET",
-    `neighbour-you-may-know/${id}`,
-    null,
-    headersWithToken
-  );
-  return result;
-};
+
 
 export const sendRequest = async (data) => {
   const id = await getId();
@@ -681,7 +585,6 @@ export const deleteMessages = async (data) => {
 };
 
 export const deleteChat = async (data) => {
-  // const id = await getId();
   const { senderId, recepientId } = data;
   const headersWithToken = await getHeadersWithToken();
   let result = await apiRequest(
@@ -843,4 +746,4 @@ export const deleteNotifications = async (data) => {
     headersWithToken
   );
   return result;
-};
+};*/

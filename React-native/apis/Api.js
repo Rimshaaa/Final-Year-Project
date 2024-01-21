@@ -1,11 +1,8 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-
 export const baseUrl = `http://192.168.10.22:3333/api/v1/`;
 export const socketUrl = "http://192.168.43.77:3333/";
 
-// export const baseUrl = `http://localhost:3333/api/v1/`;
-// export const socketUrl = "http://192.168.10.6:3333/";
 
 let token;
 const getData = async () => {

@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+/*import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   lost: false,
@@ -44,4 +44,4 @@ function buildQueryParams(state) {
 export const { toggleLost, toggleSuspicious, setSettings } =
   notificationsSlice.actions;
 
-export default notificationsSlice.reducer;
+export default notificationsSlice.reducer;*/
